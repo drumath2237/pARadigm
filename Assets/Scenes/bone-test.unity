@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 2251245462880858225, guid: 4b841635ec85ed64da9791295f85d234,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 9.79
       objectReference: {fileID: 0}
     - target: {fileID: 2251245462880858225, guid: 4b841635ec85ed64da9791295f85d234,
         type: 3}
@@ -221,6 +221,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251245462880858225, guid: 4b841635ec85ed64da9791295f85d234,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251245462880858225, guid: 4b841635ec85ed64da9791295f85d234,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251245462880858225, guid: 4b841635ec85ed64da9791295f85d234,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b841635ec85ed64da9791295f85d234, type: 3}
@@ -350,6 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70a127a4d5329249911b85d850a6f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BodySourceManager: {fileID: 800688790}
   head: {fileID: 874967565}
   neck: {fileID: 874967564}
   spineShoulder: {fileID: 874967563}
@@ -487,7 +503,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
