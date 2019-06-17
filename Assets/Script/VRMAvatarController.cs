@@ -6,31 +6,31 @@ public class VRMAvatarController : MonoBehaviour
 {
     [SerializeField] GameObject head;
     [SerializeField] GameObject neck;
-    [SerializeField] GameObject spine_shoulder;
-    [SerializeField] GameObject upper_chest;
-    [SerializeField] GameObject lower_chest;
+    [SerializeField] GameObject spineShoulder;
+    [SerializeField] GameObject upperChest;
+    [SerializeField] GameObject lowerChest;
     [SerializeField] GameObject spine;
 
-    [SerializeField] GameObject shoulder_right;
-    [SerializeField] GameObject shoulder_left;
+    [SerializeField] GameObject shoulderRight;
+    [SerializeField] GameObject shoulderLeft;
 
-    [SerializeField] GameObject elbow_right;
-    [SerializeField] GameObject elbow_left;
+    [SerializeField] GameObject elbowRight;
+    [SerializeField] GameObject elbowLeft;
 
-    [SerializeField] GameObject hand_right;
-    [SerializeField] GameObject hand_left;
+    [SerializeField] GameObject handRight;
+    [SerializeField] GameObject handLeft;
 
-    [SerializeField] GameObject hip_right;
-    [SerializeField] GameObject hip_left;
+    [SerializeField] GameObject hipRight;
+    [SerializeField] GameObject hipLeft;
 
-    [SerializeField] GameObject knee_right;
-    [SerializeField] GameObject knee_left;
+    [SerializeField] GameObject kneeRight;
+    [SerializeField] GameObject kneeLeft;
 
-    [SerializeField] GameObject foot_right;
-    [SerializeField] GameObject foot_left;
+    [SerializeField] GameObject footRight;
+    [SerializeField] GameObject footLeft;
 
-    [SerializeField] GameObject toe_right;
-    [SerializeField] GameObject toe_left;
+    [SerializeField] GameObject toeRight;
+    [SerializeField] GameObject toeLeft;
 
 
     // Start is called before the first frame update
