@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class VRMAvatarController : MonoBehaviour
 {
+    public GameObject BodySourceManager;
+    private BodySourceManager _BodyManager;
+
     [SerializeField] GameObject head;
     [SerializeField] GameObject neck;
     [SerializeField] GameObject spineShoulder;
